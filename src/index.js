@@ -18,7 +18,7 @@ const PrepareAndStartServer = () => {
     app.get('/home', (req, res) => {
         return res.json({
             message: "Ok"
-        })
+        });
     });
 
     app.use('/bookings', async (req, res, next) => {
@@ -55,3 +55,7 @@ const PrepareAndStartServer = () => {
     })
 }
 PrepareAndStartServer();
+
+//to run server in bg
+// pm2 start index.js
+//pm2 stop index.js
