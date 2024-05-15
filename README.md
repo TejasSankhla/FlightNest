@@ -6,6 +6,8 @@ FlightNest is a flight booking system implemented using Micro-Service Architectu
 
 - **UI**: The UI is inspired by SkyScanner. Utilized tailwindCSS and ReactJS for building user interface.
 
+![Screenshot (372)](https://github.com/TejasSankhla/FlightNest/assets/96951896/df6375e6-0c64-48a8-8df3-01b70ccb25b5)
+
 ### Backend
 
 - **Micro-Service Architecture**: Implemented using 5 microservices:
@@ -15,6 +17,7 @@ FlightNest is a flight booking system implemented using Micro-Service Architectu
   - Authentication Service
   - Reminder Service
   - API Gateway
+
 
 - **RabbitMQ Message Queue Service**: Utilized for sending reminders to users. The Reminder Service interacts with RabbitMQ for reliable message delivery.
 
